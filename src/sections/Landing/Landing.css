@@ -78,13 +78,10 @@
 }
 .landing .go-down i  {
   font-size: 36px;
-	
 }
 .landing .go-down i .icon-down {
   animation: bouncing 1.5s infinite;
-
 }
-
 @keyframes up-and-down {
 	0%,
 	100% {

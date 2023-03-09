@@ -1,7 +1,7 @@
 import "./Landing.css";
 import { Container } from "../../components/index";
-import landigImage from "../../assets/landing-image.png";
 import { FaAngleDoubleDown } from "react-icons/fa";
+import landigImage from "../../assets/landing-image.png";
 
 const Landing = () => {
   return (

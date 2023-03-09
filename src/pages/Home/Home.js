@@ -1,10 +1,11 @@
 import React from "react";
-import { Landing } from "../../sections/index";
+import { Landing, Articles } from "../../sections/index";
 
 const Home = () => {
   return (
     <>
       <Landing />
+      <Articles />
     </>
   );
 };
