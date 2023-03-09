@@ -2,6 +2,10 @@ import "./Header.css";
 import { Container, MegaMenu } from "../../components/index";
 
 const Header = () => {
+  const showMenu = (e) => {
+    const megaMenu = document.querySelector(".header .main-nav li:last-child .mega-menu");
+    megaMenu.classList.toggle("show");
+  };
   return (
     <div className='header' id='header'>
       <Container>
@@ -19,7 +23,9 @@ const Header = () => {
             <a href='#features'>Features</a>
           </li>
           <li>
-            <a href='#'>Other Links</a>
+            <a href='#' onClick={showMenu}>
+              Other Links
+            </a>
             <MegaMenu />
           </li>
         </ul>

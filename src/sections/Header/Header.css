@@ -71,7 +71,12 @@
 .header .main-nav > li > a:hover::before {
 	left: 0;
 }
-.header .main-nav li:last-child:hover .mega-menu {
+/* .header .main-nav li:last-child:hover .mega-menu {
+	z-index: 1;
+	opacity: 100%;
+	top: calc(100% + 1px);
+} */
+.header .main-nav li:last-child .mega-menu.show{
 	z-index: 1;
 	opacity: 100%;
 	top: calc(100% + 1px);
