@@ -1,5 +1,5 @@
 import React from "react";
-import { Landing, Articles, Gallery } from "../../sections/index";
+import { Landing, Articles, Gallery, Features } from "../../sections/index";
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
       <Landing />
       <Articles />
       <Gallery />
+      <Features />
     </>
   );
 };
