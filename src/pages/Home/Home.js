@@ -1,11 +1,12 @@
 import React from "react";
-import { Landing, Articles } from "../../sections/index";
+import { Landing, Articles, Gallery } from "../../sections/index";
 
 const Home = () => {
   return (
     <>
       <Landing />
       <Articles />
+      <Gallery />
     </>
   );
 };

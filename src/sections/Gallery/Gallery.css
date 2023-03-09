@@ -1,0 +1,13 @@
+.gallery {
+	position: relative;
+	padding-top: var(--main-padding-top);
+	padding-bottom: var(--main-padding-bottom);
+	background: var(--section-background);
+}
+.gallery::before {
+}
+.gallery .container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 40px;
+}
