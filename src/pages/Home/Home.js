@@ -6,6 +6,7 @@ import {
   Features,
   Testimonials,
   TeamMembers,
+  Services,
 } from "../../sections/index";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Features />
       <Testimonials />
       <TeamMembers />
+      <Services />
     </>
   );
 };
