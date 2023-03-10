@@ -5,3 +5,4 @@ export { default as MainHeading } from "./MainHeading/MainHeading";
 export { default as ArticlesBoxs } from "./ArticlesBoxs/ArticlesBoxs";
 export { default as GalleryBoxs } from "./GalleryBoxs/GalleryBoxs";
 export { default as FeaturesBoxs } from "./FeaturesBoxs/FeaturesBoxs";
+export { default as TestimonialsBoxs } from "./TestimonialsBoxs/TestimonialsBoxs";
