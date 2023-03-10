@@ -1,5 +1,12 @@
 import React from "react";
-import { Landing, Articles, Gallery, Features, Testimonials } from "../../sections/index";
+import {
+  Landing,
+  Articles,
+  Gallery,
+  Features,
+  Testimonials,
+  TeamMembers,
+} from "../../sections/index";
 
 const Home = () => {
   return (
@@ -9,6 +16,7 @@ const Home = () => {
       <Gallery />
       <Features />
       <Testimonials />
+      <TeamMembers />
     </>
   );
 };
