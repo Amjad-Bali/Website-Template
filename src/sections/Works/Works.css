@@ -1,0 +1,28 @@
+.work-step {
+	position: relative;
+	padding-top: var(--main-padding-top);
+	padding-bottom: var(--main-padding-bottom);
+	background: var(--section-background);
+}
+.work-step .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+@media (max-width: 991px) {
+	.work-step .container {
+		flex-direction: column;
+	}
+}
+.work-step .container .image {
+	margin-right: 100px;
+	max-width: 100%;
+}
+@media (max-width: 991px) {
+	.work-step .container .image {
+		margin: 0 auto 80px;
+	}
+}
+.work-step .info {
+	flex: 1;
+}

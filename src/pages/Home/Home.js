@@ -8,6 +8,7 @@ import {
   TeamMembers,
   Services,
   OurSkills,
+  Works,
 } from "../../sections/index";
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
       <TeamMembers />
       <Services />
       <OurSkills />
+      <Works />
     </>
   );
 };
