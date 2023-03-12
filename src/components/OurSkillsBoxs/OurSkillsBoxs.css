@@ -1,0 +1,27 @@
+.our-skills .skills .skill h3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 17px;
+}
+.our-skills .skills .skill h3 span {
+	color: var(--main-color);
+	border: 1px solid rgb(204, 204, 204);
+	padding: 3px 5px;
+	font-size: 12px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.our-skills .skills .the-progress {
+	background-color: rgb(238, 238, 238);
+	height: 25px;
+	position: relative;
+	width: 100%;
+}
+.our-skills .skills .the-progress span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: var(--main-color);
+	height: 100%;
+}

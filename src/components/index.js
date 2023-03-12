@@ -8,3 +8,4 @@ export { default as FeaturesBoxs } from "./FeaturesBoxs/FeaturesBoxs";
 export { default as TestimonialsBoxs } from "./TestimonialsBoxs/TestimonialsBoxs";
 export { default as TeamMembersBoxs } from "./TeamMembersBoxs/TeamMembersBoxs";
 export { default as ServicesBoxs } from "./ServicesBoxs/ServicesBoxs";
+export { default as OurSkillsBoxs } from "./OurSkillsBoxs/OurSkillsBoxs";

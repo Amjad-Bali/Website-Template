@@ -7,6 +7,7 @@ import {
   Testimonials,
   TeamMembers,
   Services,
+  OurSkills,
 } from "../../sections/index";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <Testimonials />
       <TeamMembers />
       <Services />
+      <OurSkills />
     </>
   );
 };

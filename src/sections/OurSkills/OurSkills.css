@@ -1,0 +1,17 @@
+.our-skills {
+	padding-top: var(--main-padding-top);
+	padding-bottom: var(--main-padding-bottom);
+	position: relative;
+}
+.our-skills .container {
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 991px) {
+	.our-skills .container img {
+		display: none;
+	}
+}
+.our-skills .skills {
+	flex: 1;
+}
