@@ -1,0 +1,26 @@
+.events .info .time .unit {
+	border: 1px solid #d4d4d4;
+	text-align: center;
+	border-radius: 6px;
+	width: 75px;
+	transition: var(--main-transition);
+}
+.events .info .time .unit span {
+	display: block;
+	transition: var(--main-transition);
+}
+.events .info .time .unit span:first-child {
+	padding: 15px;
+	color: var(--main-color);
+	font-size: 35px;
+	font-weight: bold;
+}
+.events .info .time .unit span:last-child {
+	padding: 8px 10px;
+	border-top: 1px solid #d4d4d4;
+	font-size: 13px;
+}
+.events .info .time .unit:hover,
+.events .info .time .unit:hover span:last-child {
+	border-color: var(--main-color);
+}

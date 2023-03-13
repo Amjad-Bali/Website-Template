@@ -9,6 +9,7 @@ import {
   Services,
   OurSkills,
   Works,
+  Events,
 } from "../../sections/index";
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <Services />
       <OurSkills />
       <Works />
+      <Events />
     </>
   );
 };

@@ -1,0 +1,15 @@
+.dots {
+	position: absolute;
+	background-image: url(../../assets/dots.png);
+	width: 204px;
+	height: 186px;
+	background-repeat: no-repeat;
+}
+.dots-up {
+	top: 200px;
+	right: 0;
+}
+.dots-down {
+	bottom: 200px;
+	left: 0;
+}

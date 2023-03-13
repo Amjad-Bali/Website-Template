@@ -10,3 +10,5 @@ export { default as TeamMembersBoxs } from "./TeamMembersBoxs/TeamMembersBoxs";
 export { default as ServicesBoxs } from "./ServicesBoxs/ServicesBoxs";
 export { default as OurSkillsBoxs } from "./OurSkillsBoxs/OurSkillsBoxs";
 export { default as WorksBoxs } from "./WorksBoxs/WorksBoxs";
+export { default as Dots } from "./Dots/Dots";
+export { default as Unit } from "./Unit/Unit";

@@ -8,3 +8,4 @@ export { default as TeamMembers } from "./TeamMembers/TeamMembers";
 export { default as Services } from "./Services/Services";
 export { default as OurSkills } from "./OurSkills/OurSkills";
 export { default as Works } from "./Works/Works";
+export { default as Events } from "./Events/Events";
