@@ -1,0 +1,93 @@
+.discount {
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	padding-bottom: 40px;
+}
+.discount .image {
+	position: relative;
+	flex-basis: 50%;
+	background-image: url(../../assets/discount-background1.jpg);
+	background-size: cover;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+	animation: change-background 10s linear infinite;
+}
+.discount .image::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(23 135 224 / 97%);
+	z-index: -1;
+}
+@media (max-width: 991px) {
+	.discount .image {
+		flex-basis: 100%;
+	}
+}
+.discount .form {
+	flex-basis: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width: 991px) {
+	.discount .form {
+		flex-basis: 100%;
+	}
+}
+.discount .form .input {
+	display: block;
+	width: 100%;
+	padding: 15px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 25px;
+	caret-color: var(--main-color);
+	background-color: #f9f9f9;
+}
+.discount .form .input:focus {
+	outline: none;
+}
+.discount .form textarea.input {
+	resize: none;
+	height: 200px;
+}
+.discount .form [type="submit"] {
+	display: block;
+	padding: 15px;
+	width: 100%;
+	background-color: var(--main-color);
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: var(--main-transition);
+	border: none;
+}
+.discount .form [type="submit"]:hover {
+	background-color: var(--main-color-alt);
+}
+.discount .content {
+	text-align: center;
+	padding: 0 20px;
+}
+.discount .content h2 {
+	font-size: 40px;
+	letter-spacing: -2px;
+}
+.discount .content p {
+	line-height: 1.6;
+	font-size: 18px;
+	max-width: 500px;
+}
+.discount .content img {
+	width: 300px;
+	max-width: 100%;
+}

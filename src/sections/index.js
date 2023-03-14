@@ -12,3 +12,4 @@ export { default as Events } from "./Events/Events";
 export { default as Pricing } from "./Pricing/Pricing";
 export { default as TopVideo } from "./TopVideo/TopVideo";
 export { default as OurState } from "./OurState/OurState";
+export { default as Discount } from "./Discount/Discount";
