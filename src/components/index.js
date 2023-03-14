@@ -12,3 +12,4 @@ export { default as OurSkillsBoxs } from "./OurSkillsBoxs/OurSkillsBoxs";
 export { default as WorksBoxs } from "./WorksBoxs/WorksBoxs";
 export { default as Dots } from "./Dots/Dots";
 export { default as Unit } from "./Unit/Unit";
+export { default as PricingBoxs } from "./PricingBoxs/PricingBoxs";

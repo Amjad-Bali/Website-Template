@@ -10,6 +10,7 @@ import {
   OurSkills,
   Works,
   Events,
+  Pricing,
 } from "../../sections/index";
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
       <OurSkills />
       <Works />
       <Events />
+      <Pricing />
     </>
   );
 };
