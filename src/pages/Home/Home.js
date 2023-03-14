@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../sections/Footer/Footer";
 import {
   Landing,
   Articles,
@@ -15,6 +14,7 @@ import {
   TopVideo,
   OurState,
   Discount,
+  Footer,
 } from "../../sections/index";
 
 const Home = () => {
@@ -34,7 +34,7 @@ const Home = () => {
       <TopVideo />
       <OurState />
       <Discount />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

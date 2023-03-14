@@ -13,3 +13,4 @@ export { default as Pricing } from "./Pricing/Pricing";
 export { default as TopVideo } from "./TopVideo/TopVideo";
 export { default as OurState } from "./OurState/OurState";
 export { default as Discount } from "./Discount/Discount";
+export { default as Footer } from "./Footer/Footer";
