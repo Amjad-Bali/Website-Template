@@ -10,3 +10,4 @@ export { default as OurSkills } from "./OurSkills/OurSkills";
 export { default as Works } from "./Works/Works";
 export { default as Events } from "./Events/Events";
 export { default as Pricing } from "./Pricing/Pricing";
+export { default as TopVideo } from "./TopVideo/TopVideo";
