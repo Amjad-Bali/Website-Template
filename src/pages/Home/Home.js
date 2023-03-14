@@ -12,6 +12,7 @@ import {
   Events,
   Pricing,
   TopVideo,
+  OurState,
 } from "../../sections/index";
 
 const Home = () => {
@@ -29,6 +30,7 @@ const Home = () => {
       <Events />
       <Pricing />
       <TopVideo />
+      <OurState />
     </>
   );
 };
