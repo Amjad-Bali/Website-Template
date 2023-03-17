@@ -23,7 +23,7 @@ const PricingBoxs = (props) => {
           );
         })}
       </ul>
-      <a href='#'>Choose Plan</a>
+      <a href='#chooseplan'>Choose Plan</a>
     </div>
   );
 };

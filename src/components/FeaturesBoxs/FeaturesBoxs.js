@@ -8,7 +8,7 @@ const FeaturesBoxs = (props) => {
       </div>
       <h2>{props.title}</h2>
       <p>{props.content}</p>
-      <a href=''>More</a>
+      <a href='#more'>More</a>
     </div>
   );
 };

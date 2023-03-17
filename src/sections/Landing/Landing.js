@@ -8,7 +8,7 @@ const Landing = () => {
     <div className='landing'>
       <Container>
         <div className='text'>
-          <h1>Welcome, To Elzero World</h1>
+          <h1>Welcome, To Site World</h1>
           <p>
             Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing,
             Stories and Events

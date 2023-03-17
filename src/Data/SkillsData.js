@@ -2,22 +2,22 @@ const skillsData = [
   {
     id: "skills-01",
     name: "HTML",
-    num: "90",
+    num: "0",
   },
   {
     id: "skills-02",
     name: "CSS",
-    num: "80",
+    num: "0",
   },
   {
     id: "skills-03",
     name: "JS",
-    num: "70",
+    num: "0",
   },
   {
     id: "skills-04",
     name: "React",
-    num: "80",
+    num: "0",
   },
 ];
 export default skillsData;

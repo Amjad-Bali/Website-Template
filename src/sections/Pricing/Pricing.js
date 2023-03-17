@@ -12,7 +12,7 @@ const Pricing = () => {
         amount={box.amount}
         time={box.time}
         featurs={box.featurs}
-        AddClass={box.title == "Advanced" ? "popular" : ""}
+        AddClass={box.title === "Advanced" ? "popular" : ""}
       />
     );
   });

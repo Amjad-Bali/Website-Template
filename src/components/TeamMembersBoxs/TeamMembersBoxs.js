@@ -7,22 +7,22 @@ const TeamMembersBoxs = (props) => {
       <div className='data'>
         <img src={props.image} alt='' />
         <div className='social'>
-          <a href='#'>
+          <a href='#facebook'>
             <i>
               <FaFacebook />
             </i>
           </a>
-          <a href='#'>
+          <a href='#twitter'>
             <i>
               <FaTwitter />
             </i>
           </a>
-          <a href='#'>
+          <a href='#linkedin'>
             <i>
               <FaLinkedin />
             </i>
           </a>
-          <a href='#'>
+          <a href='#youtube'>
             <i>
               <FaYoutube />
             </i>

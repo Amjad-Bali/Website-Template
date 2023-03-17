@@ -33,13 +33,14 @@
 .stats .box i .icon {
 	font-size: 2rem;
 	font-weight: 900;
+
 }
 .stats .box .number {
 	display: block;
 	font-size: 50px;
 	font-weight: bold;
-	margin-top: -15px;
-	margin-bottom: -15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .stats .box .text {
 	color: var(--main-color);

@@ -10,7 +10,7 @@ const ArticlesBoxs = (props) => {
         <p>{props.content}</p>
       </div>
       <div className='info'>
-        <a href=''>Read More</a>
+        <a href='#readmore'>Read More</a>
         <i>
           <FaLongArrowAltRight />
         </i>

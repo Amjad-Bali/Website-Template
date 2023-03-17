@@ -6,7 +6,7 @@ const ServicesBoxs = (props) => {
       <i>{props.icon}</i>
       <h3>{props.title}</h3>
       <div className='info'>
-        <a href=''>Details</a>
+        <a href='#details'>Details</a>
       </div>
     </div>
   );

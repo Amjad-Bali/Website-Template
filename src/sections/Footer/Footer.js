@@ -3,7 +3,6 @@ import {
   FaTwitter,
   FaYoutube,
   FaFacebook,
-  FaMapMarkedAlt,
   FaClock,
   FaPhoneVolume,
   FaMapMarkerAlt,
@@ -20,24 +19,24 @@ const Footer = () => {
     <div className='footer'>
       <div className='container'>
         <div className='box'>
-          <h3>Elzero</h3>
+          <h3>Site</h3>
           <ul className='social'>
             <li>
-              <a href='#' className='facebook'>
+              <a href='#facebook' className='facebook'>
                 <i>
                   <FaFacebook />
                 </i>
               </a>
             </li>
             <li>
-              <a href='#' className='twitter'>
+              <a href='#twitter' className='twitter'>
                 <i>
                   <FaTwitter />
                 </i>
               </a>
             </li>
             <li>
-              <a href='#' className='youtube'>
+              <a href='#youtube' className='youtube'>
                 <i>
                   <FaYoutube />
                 </i>
@@ -55,31 +54,31 @@ const Footer = () => {
               <span>
                 <FaAngleDoubleRight />
               </span>
-              <a href='#'>Important Link 1</a>
+              <a href='#import1'>Important Link 1</a>
             </li>
             <li>
               <span>
                 <FaAngleDoubleRight />
               </span>
-              <a href='#'>Important Link 2</a>
+              <a href='#import2'>Important Link 2</a>
             </li>
             <li>
               <span>
                 <FaAngleDoubleRight />
               </span>
-              <a href='#'>Important Link 3</a>
+              <a href='#import3'>Important Link 3</a>
             </li>
             <li>
               <span>
                 <FaAngleDoubleRight />
               </span>
-              <a href='#'>Important Link 4</a>
+              <a href='#import4'>Important Link 4</a>
             </li>
             <li>
               <span>
                 <FaAngleDoubleRight />
               </span>
-              <a href='#'>Important Link 5</a>
+              <a href='#import5'>Important Link 5</a>
             </li>
           </ul>
         </div>
